@@ -7,4 +7,3 @@ RUN apt-get update -y \
 	&& apt-get install python-pip -y \
 	&& pip install -r /root/requirements.txt \
 	&& chmod +x /bin/maintenance_window.py
-USER jenkins
